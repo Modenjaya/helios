@@ -1,0 +1,19 @@
+{
+  "name": "helios-testnet-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "blessed": "^0.1.81",
+    "chalk": "^5.3.0",
+    "ethers": "^6.13.1",
+    "figlet": "^1.7.0",
+    "https-proxy-agent": "^7.0.4",
+    "socks-proxy-agent": "^8.0.3",
+    "uuid": "^10.0.0"
+  }
+}
